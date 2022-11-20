@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-20T08:50:39.045Z" agent="5.0 (X11)" etag="uP-f_6s63N1Njulcy_gB" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-20T08:54:13.230Z" agent="5.0 (X11)" etag="fBh5NFdI6JfoWaZdhN71" version="20.5.3" type="github">
   <diagram id="GeOgjJa3R1q8z_N-JKQI" name="Page-1">
-    <mxGraphModel dx="555" dy="1761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="459" dy="1647" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -145,16 +145,21 @@
         <mxCell id="0VTmaG_LoNztCyliUrxO-11" value="event_dispatcher()" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#D5E8D4;" vertex="1" parent="1">
           <mxGeometry x="820" y="270" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="0VTmaG_LoNztCyliUrxO-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0VTmaG_LoNztCyliUrxO-13" target="0VTmaG_LoNztCyliUrxO-15">
+        <mxCell id="0VTmaG_LoNztCyliUrxO-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.003;entryY=0.577;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="0VTmaG_LoNztCyliUrxO-13" target="0VTmaG_LoNztCyliUrxO-15">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1070" y="870" />
-              <mxPoint x="1070" y="920" />
-              <mxPoint x="1160" y="920" />
+              <mxPoint x="1130" y="870" />
+              <mxPoint x="1130" y="135" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="0VTmaG_LoNztCyliUrxO-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0VTmaG_LoNztCyliUrxO-13" target="0VTmaG_LoNztCyliUrxO-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0VTmaG_LoNztCyliUrxO-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0VTmaG_LoNztCyliUrxO-13" target="0VTmaG_LoNztCyliUrxO-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0VTmaG_LoNztCyliUrxO-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0VTmaG_LoNztCyliUrxO-13" target="0VTmaG_LoNztCyliUrxO-30">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="0VTmaG_LoNztCyliUrxO-13" value="GNSSFlowgraph::init()" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#D5E8D4;" vertex="1" parent="1">
@@ -164,25 +169,37 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="0VTmaG_LoNztCyliUrxO-15" value="block_factory" style="whiteSpace=wrap;html=1;rounded=0;strokeColor=#000000;fillColor=#3399FF;" vertex="1" parent="1">
-          <mxGeometry x="1100" y="930" width="120" height="60" as="geometry" />
+          <mxGeometry x="1215" y="100" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0VTmaG_LoNztCyliUrxO-16" value="GNSSBlockFactory()" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#D5E8D4;" vertex="1" parent="1">
-          <mxGeometry x="1260" y="930" width="170" height="60" as="geometry" />
+          <mxGeometry x="1370" y="100" width="170" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0VTmaG_LoNztCyliUrxO-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0VTmaG_LoNztCyliUrxO-17" target="0VTmaG_LoNztCyliUrxO-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="0VTmaG_LoNztCyliUrxO-17" value="channel_status_" style="whiteSpace=wrap;html=1;rounded=0;strokeColor=#000000;fillColor=#3399FF;" vertex="1" parent="1">
-          <mxGeometry x="1105" y="840" width="120" height="60" as="geometry" />
+          <mxGeometry x="1215" y="10" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0VTmaG_LoNztCyliUrxO-18" value="channel_status_msg_receiver_make()" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#D5E8D4;" vertex="1" parent="1">
-          <mxGeometry x="1250" y="840" width="220" height="60" as="geometry" />
+          <mxGeometry x="1360" y="10" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0VTmaG_LoNztCyliUrxO-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0VTmaG_LoNztCyliUrxO-24" target="0VTmaG_LoNztCyliUrxO-25">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="0VTmaG_LoNztCyliUrxO-24" value="sig_source_" style="whiteSpace=wrap;html=1;rounded=0;strokeColor=#000000;fillColor=#3399FF;" vertex="1" parent="1">
-          <mxGeometry x="1100" y="1010" width="120" height="60" as="geometry" />
+          <mxGeometry x="1215" y="190" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0VTmaG_LoNztCyliUrxO-25" value="block_factory-&amp;gt;GetSignalSource()" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#D5E8D4;" vertex="1" parent="1">
-          <mxGeometry x="1260" y="1010" width="220" height="60" as="geometry" />
+          <mxGeometry x="1370" y="190" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0VTmaG_LoNztCyliUrxO-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0VTmaG_LoNztCyliUrxO-30" target="0VTmaG_LoNztCyliUrxO-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0VTmaG_LoNztCyliUrxO-30" value="observables_" style="whiteSpace=wrap;html=1;rounded=0;strokeColor=#000000;fillColor=#3399FF;" vertex="1" parent="1">
+          <mxGeometry x="1215" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0VTmaG_LoNztCyliUrxO-31" value="block_factory-&amp;gt;GetObservables()" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#D5E8D4;" vertex="1" parent="1">
+          <mxGeometry x="1370" y="280" width="220" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
