@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-20T02:02:54.948Z" agent="5.0 (X11)" etag="IazHShtpcdVrgUVdt4Sh" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-20T02:31:43.300Z" agent="5.0 (X11)" etag="n5Gl-QJ_tNTVyQjHhbrf" version="20.5.3" type="github">
   <diagram id="GeOgjJa3R1q8z_N-JKQI" name="Page-1">
     <mxGraphModel dx="555" dy="661" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -106,17 +106,23 @@
         <mxCell id="0VTmaG_LoNztCyliUrxO-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="A1KQ_HArBz8SDr3EdsJI-33" target="0VTmaG_LoNztCyliUrxO-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="0VTmaG_LoNztCyliUrxO-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="A1KQ_HArBz8SDr3EdsJI-33" target="0VTmaG_LoNztCyliUrxO-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="A1KQ_HArBz8SDr3EdsJI-33" value="control_thread-&amp;gt;run()" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#D5E8D4;" parent="1" vertex="1">
           <mxGeometry x="460" y="240" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0VTmaG_LoNztCyliUrxO-1" value="flowgraph_-&amp;gt;connect()" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#D5E8D4;" vertex="1" parent="1">
-          <mxGeometry x="650" y="130" width="120" height="60" as="geometry" />
+          <mxGeometry x="650" y="30" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0VTmaG_LoNztCyliUrxO-3" value="flowgraph_-&amp;gt;start()" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#D5E8D4;" vertex="1" parent="1">
-          <mxGeometry x="650" y="210" width="120" height="60" as="geometry" />
+          <mxGeometry x="650" y="110" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0VTmaG_LoNztCyliUrxO-5" value="keyboard_thread_" style="whiteSpace=wrap;html=1;rounded=0;strokeColor=#000000;fillColor=#3399FF;" vertex="1" parent="1">
-          <mxGeometry x="650" y="290" width="120" height="60" as="geometry" />
+          <mxGeometry x="650" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0VTmaG_LoNztCyliUrxO-7" value="cmd_interface.set_pvt()" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#D5E8D4;" vertex="1" parent="1">
+          <mxGeometry x="650" y="280" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
