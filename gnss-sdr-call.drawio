@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-20T09:51:26.578Z" agent="5.0 (X11)" etag="lkx9OuTPQ6j37j9-KnmS" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-20T09:56:20.438Z" agent="5.0 (X11)" etag="5VD0bezp5rfdXbR04Jnh" version="20.5.3" type="github">
   <diagram id="GeOgjJa3R1q8z_N-JKQI" name="Page-1">
-    <mxGraphModel dx="784" dy="2033" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="951" dy="2233" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -323,13 +323,28 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="0VTmaG_LoNztCyliUrxO-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="0VTmaG_LoNztCyliUrxO-66" target="0VTmaG_LoNztCyliUrxO-78">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="955" y="-80" />
+              <mxPoint x="658" y="-80" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="0VTmaG_LoNztCyliUrxO-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="0VTmaG_LoNztCyliUrxO-66" target="0VTmaG_LoNztCyliUrxO-80">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="955" y="-80" />
+              <mxPoint x="610" y="-80" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="0VTmaG_LoNztCyliUrxO-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.409;entryY=0.999;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="0VTmaG_LoNztCyliUrxO-66" target="0VTmaG_LoNztCyliUrxO-82">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="955" y="-80" />
+              <mxPoint x="628" y="-80" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="0VTmaG_LoNztCyliUrxO-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.529;entryY=1.058;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="0VTmaG_LoNztCyliUrxO-66" target="0VTmaG_LoNztCyliUrxO-83">
           <mxGeometry relative="1" as="geometry" />
@@ -337,38 +352,47 @@
         <mxCell id="0VTmaG_LoNztCyliUrxO-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0VTmaG_LoNztCyliUrxO-66" target="0VTmaG_LoNztCyliUrxO-84">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="0VTmaG_LoNztCyliUrxO-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="0VTmaG_LoNztCyliUrxO-66" target="0VTmaG_LoNztCyliUrxO-90">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="0VTmaG_LoNztCyliUrxO-66" value="&lt;div&gt;GNSSFlowgraph::&lt;/div&gt;&lt;div&gt;connect_desktop_flowgraph()&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#D5E8D4;" vertex="1" parent="1">
           <mxGeometry x="860" y="-60" width="190" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0VTmaG_LoNztCyliUrxO-68" value="connect_signal_sources()" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#D5E8D4;" vertex="1" parent="1">
-          <mxGeometry x="200" y="-230" width="190" height="60" as="geometry" />
+          <mxGeometry x="190" y="-180" width="190" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0VTmaG_LoNztCyliUrxO-70" value="connect_signal_conditioners()" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#D5E8D4;" vertex="1" parent="1">
-          <mxGeometry x="190" y="-320" width="190" height="60" as="geometry" />
+          <mxGeometry x="190" y="-280" width="190" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0VTmaG_LoNztCyliUrxO-71" value="connect_channels()" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#D5E8D4;" vertex="1" parent="1">
-          <mxGeometry x="225" y="-420" width="140" height="60" as="geometry" />
+          <mxGeometry x="200" y="-390" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0VTmaG_LoNztCyliUrxO-72" value="connect_observables()" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#D5E8D4;" vertex="1" parent="1">
-          <mxGeometry x="410" y="-460" width="190" height="60" as="geometry" />
+          <mxGeometry x="190" y="-470" width="190" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0VTmaG_LoNztCyliUrxO-73" value="connect_pvt()" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#D5E8D4;" vertex="1" parent="1">
-          <mxGeometry x="530" y="-370" width="190" height="60" as="geometry" />
+          <mxGeometry x="530" y="-440" width="190" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0VTmaG_LoNztCyliUrxO-78" value="connect_signal_sources_to_signal_conditioners()" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#D5E8D4;" vertex="1" parent="1">
-          <mxGeometry x="660" y="-200" width="275" height="60" as="geometry" />
+          <mxGeometry x="520" y="-350" width="275" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0VTmaG_LoNztCyliUrxO-80" value="connect_sample_counter()" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#D5E8D4;" vertex="1" parent="1">
-          <mxGeometry x="880" y="-300" width="180" height="60" as="geometry" />
+          <mxGeometry x="520" y="-260" width="180" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0VTmaG_LoNztCyliUrxO-82" value="connect_signal_conditioners_to_channels()" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#D5E8D4;" vertex="1" parent="1">
-          <mxGeometry x="1020" y="-200" width="275" height="60" as="geometry" />
+          <mxGeometry x="515" y="-180" width="275" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0VTmaG_LoNztCyliUrxO-83" value="connect_channels_to_observables()" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#D5E8D4;" vertex="1" parent="1">
-          <mxGeometry x="1200" y="-300" width="275" height="60" as="geometry" />
+          <mxGeometry x="840" y="-270" width="275" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0VTmaG_LoNztCyliUrxO-84" value="connect_observables_to_pvt()" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#D5E8D4;" vertex="1" parent="1">
-          <mxGeometry x="1380" y="-200" width="275" height="60" as="geometry" />
+          <mxGeometry x="840" y="-180" width="275" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0VTmaG_LoNztCyliUrxO-89" value="&amp;nbsp;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1330" y="210" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0VTmaG_LoNztCyliUrxO-90" value="channels_-&amp;gt;start_acquisition()" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#D5E8D4;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="-180" width="210" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
